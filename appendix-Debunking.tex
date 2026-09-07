@@ -1,0 +1,134 @@
+ \documentclass[12pt,english]{article}
+    \usepackage[T1]{fontenc}
+    \usepackage[ansinew]{inputenc}
+%    \usepackage{a4}
+    \usepackage{babel}
+    \usepackage{graphicx}
+    \usepackage{fullpage}
+\begin{document}
+
+\appendix
+\begin{center}
+\center{\bf Appendix} \\
+
+\noindent {\bf Extensions to include feedback from abroad}
+\end{center}
+In order to deal with repercussions (feedback) from abroad we
+formulate a simple two-country income model:
+\begin{eqnarray}
+ Y_i &=& C_i(Y_i-T_i) + I_i + A_i + Ex_i - Im_i, i=1,2. \label{eq:e0}
+% Y_2 &=& C_1(Y_2-T_2) + I_2 + A_2 + Ex_2 - Im_2.  \label{eq:e1}
+\end{eqnarray}
+Its differential form is given by:
+\begin{eqnarray}
+ dY_i &=& c_i (dY_i-dT_i)  + dA_i + dI_i +  dEx_i - dIm_i, i=1,2.  \label{eq:e4}
+% dY_2 &=& c_2 (dY_2-dT_2)  + dA_2 + dEx_2 - dIm_2.  \label{eq:e5}
+\end{eqnarray}
+
+Here, the export function of  one country is the import function of
+the other country.
+\begin{eqnarray}
+Ex_j &=&  Im_i = \gamma_i c_1(Y_i-T_i)+ \alpha_i A_i + \iota_i I_i,
+i=1,2; j=1,2, i\neq j. \label{eq:e2}
+%Ex_1 &=&  Im_2 = \gamma_2 c_2(Y_2-T_2)+ \alpha_2 A_2 + \iota_2 I_2 .
+\label{eq:e3}
+\end{eqnarray}
+
+The import functions incorporate the changes argued for in the main
+text. Shifts in autonomous public expenditures, autonomous
+investment imply shifts in the import function of a country. In
+order to simplify the exposition we have formally suppressed
+(changes) in autonomous consumption. We shall now also exclude
+changes in autonomous investment:
+ \begin{eqnarray}
+ dI_i& = 0, i=1,2
+\end{eqnarray}
+Changes of imports and exports are then given by:
+\begin{eqnarray}
+dEx_j &=&  dIm_i = \gamma_i c_i(dY_i-dT_i)+ \alpha_i dA_i, i =1,2,
+j=1,2, i\neq j \label{eq:e6}
+% dEx_1 &=& dIm_2 = \gamma_2 c_2(dY_2-dT_2)+ \alpha_2 dA_2.
+ \label{eq:e7}
+\end{eqnarray}
+In addition, we define, first, the marginal propensity to save:
+\begin{eqnarray}
+s_i & = & 1-c_i, i=1,2
+\end{eqnarray}
+and, second,
+\begin{eqnarray}
+ S_i  &\stackrel{def}{=}& [ (1-c_i) + c_i
+\gamma_i],\hspace{2mm} i=1,2 \\
+& =& (s_i + m_i).
+\end{eqnarray}
+For the changes in income we obtain:
+\begin{eqnarray}
+ d Y_i & = & \frac{1}{S_i}\{(1-\alpha_i) dA_i -c_i(1-\gamma_i) dT_i \} \\
+ & & + \frac{\gamma_j c_j}{S_i}(d Y_j-dT_J)+
+ \frac{\alpha_j}{S_i}dA_j, i=1,2, j=1,2, i \neq j.
+% d Y_2 & = & \frac{1}{S_2}\{(1-\alpha_2) dA_2 -c_2(1-\gamma_2) dT_2 \} +
+% \frac{\gamma_1 c_1}{S_2}d Y_1.
+ \end{eqnarray}
+
+  We now consider the change in income that follows from a change in public expenditures in
+  the home country only. From
+\begin{eqnarray}
+d A_2 &=& d T_2 = 0
+ \end{eqnarray}
+follows:
+\begin{eqnarray}
+ dY_2 &= & \frac{\gamma_1 c_1}{S_2 }dY_1.
+ \end{eqnarray}
+
+We deal with two cases. First, the
+  Haavelmo-case where a tax finance constraint is
+  included explicitly. Second, the case where the tax financing restriction is excluded from the analysis.
+
+
+1. Haavelmo-case
+
+With the tax financing constraint
+ \begin{eqnarray}
+ dT_1 = dA_1
+\end{eqnarray}
+we obtain
+\begin{eqnarray}
+d Y_1 & = & (1- \frac{\alpha_1}{S_1}) dA_1 +  \frac{\gamma_2 c_2}{S_1}d Y_2,  \\
+dY_1 &=& \frac{1- \frac{\alpha_1}{S_1}}{1
+-\frac{\gamma_1c_1}{S_1}\frac{\gamma_2c_2}{S_2}} dA_1.
+\end{eqnarray}
+\begin{eqnarray}
+ m_i & \stackrel{def}{=} & \gamma_i c_i  \hspace{2mm}
+ \end{eqnarray}
+\begin{eqnarray}
+&=& \frac{1- \frac{\alpha_1}{S_1}}{1
+-\frac{m_1}{S_1}\frac{m_2}{S_2}} dA_1
+\end{eqnarray}
+2. Case without tax financing
+
+With
+\begin{eqnarray}
+ dT_1 =0
+ \end{eqnarray}
+we obtain
+\begin{eqnarray}
+d Y_1 & = & \frac{1-\alpha_1}{S_1} dA_1 +  \frac{\gamma_2 c_2}{S_1}d Y_2  \\
+dY_1 &
+=&\frac{\frac{1-\alpha_1}{S_1}}{1-\frac{\gamma_1c_1}{S_1}\frac{\gamma_2c_2}{S_2}}
+dA_1 \\
+& = &
+\frac{\frac{1-\alpha_1}{S_1}}{1-\frac{m_1}{S_1}\frac{m_2}{S_2}}
+\end{eqnarray}
+
+Thus, we find that feedbacks from abroad do modify the results of
+the main text for the income change in the home country. Those
+results are multplied by the factor:
+\begin{eqnarray}
+\frac{1}{1-\frac{\gamma_1c_1}{S_1}\frac{\gamma_2c_2}{S_2}}.
+\end{eqnarray}
+With the usual assumptions about the parameters included in the
+factor, the factor is larger than 1. Thus the feedback magnifies the
+absolute value of an income effect but does not change its sign. A
+negative value does remain a negative value. A positive value of the
+income effect does remain positive. However it may change from a
+positive value smaller than 1 to one larger than 1.
+\end{document}
